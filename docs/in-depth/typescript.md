@@ -29,7 +29,7 @@ Starting from version 2.0 of the starter kit, we've enabled the `--strict` flag 
 
 ESLint checks your TypeScript (and JavaScript) code for readability, maintainability, and functionality errors, and can also enforce coding style standards.
 
-This project provides ESLint rules through a `.eslintrc.js` file, which extends the recommended rules from ESLint defined [here](https://eslint.org/docs/rules/).
+This project provides ESLint rules through a `.eslintrc.cjs` file, which extends the recommended rules from ESLint defined [here](https://eslint.org/docs/rules/).
 
 We've made some changes to these rules, which we considered necessary and/or relevant to a proper Screeps project:
 
@@ -39,7 +39,7 @@ We've made some changes to these rules, which we considered necessary and/or rel
 
 ### Customising ESLint
 
-You can also customise your `.eslintrc.js` file to match the preferences of your codebase. Click [here](https://eslint.org/docs/user-guide/configuring/), to find out how, and click [here](https://eslint.org/docs/rules/) for a complete list of rules available.
+You can also customise your `.eslintrc.cjs` file to match the preferences of your codebase. Click [here](https://eslint.org/docs/user-guide/configuring/), to find out how, and click [here](https://eslint.org/docs/rules/) for a complete list of rules available.
 
 If you believe that some rules should not apply to a part of your code \(e.g. for one-off cases like having to use `require()` to include a module\), you can use flags to let ESLint know about it: [https://eslint.org/docs/user-guide/configuring/rules#disabling-rules](https://eslint.org/docs/user-guide/configuring/rules#disabling-rules)
 
